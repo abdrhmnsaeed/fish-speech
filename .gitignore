@@ -111,5 +111,9 @@ ffprobe.exe
 # ----------
 /*.test.sh
 asr-label*
-config.bat
 node_modules
+
+# Local environment files
+.env
+.env.*
+!.env.example
